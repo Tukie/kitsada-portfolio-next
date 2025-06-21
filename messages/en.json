@@ -1,0 +1,75 @@
+{
+  "Navbar": {
+    "name": "KITSADA",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Welcome to my portfolio website",
+    "firstName": "KITSADA",
+    "lastName": "BUTNAM",
+    "resume": "Resume",
+    "downloadResume": "Download Resume"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "Biography and Educational Background",
+    "name": "Name",
+    "fullName": "Kritsada Butnam",
+    "age": "Age",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "lineId": "Line ID",
+    "address": "Address",
+    "addressValue": "Ubon Ratchathani",
+    "education": "Education",
+    "educationValue": "Udon Thani Rajabhat University"
+  },
+  "Experience": {
+    "title": "Experience",
+    "description": "Work history and past achievements",
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "jobs": [
+      {
+        "period": "July 10, 2023 - Present",
+        "company": "Vanness Plus Consulting Co., Ltd.",
+        "position": "Programmer",
+        "description": "Built and developed fully functional websites using modern programming languages (PHP, Vue, Nuxt, MySQL) to ensure responsiveness, scalability, and performance. Designed appealing and user-friendly interfaces, focusing on User Experience (UX) design principles to enhance usability and functionality. Wrote comprehensive user manuals and documentation, providing step-by-step guidance and troubleshooting tips for users and team members, including ongoing maintenance and improvements."
+      },
+      {
+        "period": "April 1, 2023 - June 17, 2023",
+        "company": "Bank for Agriculture and Agricultural Cooperatives (BAAC)",
+        "position": "Intern",
+        "description": "Provided customer service, opened accounts, issued ATM cards, A-GEN cards, and Gold cards. Assisted with A-Mobile and Mobile Banking applications. Supported financial operations: printing and photocopying documents, handling cash boxes for ATM refills. Supported loan operations: printing and folding invoices, data entry for BAAC Taweerak 99 and BAAC Maubrak insurance."
+      }
+    ]
+  },
+  "Skill": {
+    "title": "Skills",
+    "description": "Skills and expertise",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "Projects": {
+    "title": "Projects",
+    "description": "Here are some of my projects.",
+    "projects1": "Community Learning Center",
+    "projects2": "Time Attendance System",
+    "projects3": "MovieHub",
+    "view": "View"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Please fill out the form below to contact me and let me know that you are interested in communication with me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}
