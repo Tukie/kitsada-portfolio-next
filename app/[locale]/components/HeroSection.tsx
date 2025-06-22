@@ -11,10 +11,8 @@ export default function HeroSection() {
     <>
       <div className="flex flex-col lg:flex-row gap-10 items-center justify-evenly min-h-[30rem]">
         <div className="text-center lg:text-left">
-          <span className="block text-xl mb-2">
-            {t("title")}
-          </span>
-          <h1 className="text-8xl font-bold mb-10">
+          <span className="block text-xl mb-5">{t("title")}</span>
+          <h1 className="text-6xl lg:text-8xl font-bold mb-10">
             {t("firstName")} <br /> {t("lastName")}
           </h1>
 

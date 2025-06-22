@@ -25,6 +25,8 @@ const navItems = [
 ];
 
 const SmallScreenNavbar = () => {
+  const t = useTranslations("Navbar");
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -36,7 +38,7 @@ const SmallScreenNavbar = () => {
           <IconMenu2 size={24} stroke={1.4} className="text-foreground" />
         </Button>
       </DialogTrigger>
-      <DialogContent className="backdrop-blur-lg bg-background/50 h-[90%]">
+      <DialogContent className="backdrop-blur-lg bg-background/85 h-[90%]">
         <DialogHeader>
           <DialogTitle></DialogTitle>
           <DialogDescription className="p-5 flex flex-col gap-12 items-center justify-center my-auto">
@@ -46,7 +48,7 @@ const SmallScreenNavbar = () => {
                 href={`#${nav.to}`}
                 className={`py-2 px-4 rounded-full no-underline transition-all duration-300 ease-in-out text-foreground hover:opacity-40 text-2xl`}
               >
-                {nav.name}
+                {t(nav.name)}
               </Link>
             ))}
           </DialogDescription>
@@ -71,7 +73,7 @@ export default function NavBar() {
               href="#"
               className="no-underline text-lg font-semibold text-primary dark:text-white"
             >
-              KITSADA
+              {t("name")}
             </Link>
           </div>
 

@@ -173,3 +173,7 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  @apply cursor-pointer;
+}
+
