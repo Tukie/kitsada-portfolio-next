@@ -10,27 +10,31 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { useTranslations } from "next-intl";
 
 export default function DownloadResume({
   onDownloadResume,
 }: {
   onDownloadResume: (lang: "en" | "th") => void;
 }) {
+
+  const t = useTranslations("Hero");
+
   return (
     <Dialog>
       <DialogTrigger asChild>
         <Button
-          className="font-semibold p-6 w-1/2"
+          className="font-semibold p-6 w-fit"
           variant={"default"}
           size={"lg"}
         >
           <IconDownload size={24} />
-          <span className="text-lg">เรซูเม่</span>
+          <span className="text-lg">{t("resume")}</span>
         </Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Download Resume</DialogTitle>
+          <DialogTitle>{t("downloadResume")}</DialogTitle>
           <DialogDescription className="p-5 flex gap-7 items-center justify-center">
             <Button
               className="font-semibold w-1/2 p-7"
