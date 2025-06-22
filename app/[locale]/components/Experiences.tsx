@@ -66,9 +66,9 @@ export default function Experiences() {
                 key={data.title}
                 className="rounded-2xl backdrop-blur-lg p-8 border-2 bg-white/5 border-white/10 shadow-lg"
               >
-                <div className="flex flex-col xl:flex-row items-center justify-center text-lg font-semibold text-white bg-primary w-full rounded-full p-2 text-center mb-5 gap-x-3 gap-y-2">
-                  <p>{data.title}</p>
-                  <p>({data.range})</p>
+                <div className="flex flex-col xl:flex-row items-center justify-center text-lg font-semibold text-white bg-primary w-full rounded-full p-2 text-center mb-8 gap-x-3 gap-y-2">
+                  <p className="text-sm sm:text-base">{data.title}</p>
+                  <p className="text-sm sm:text-base">({data.range})</p>
                 </div>
                 <div>
                   <p className="wrap-anywhere font-semibold mb-1">
