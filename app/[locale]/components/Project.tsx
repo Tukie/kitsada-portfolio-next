@@ -41,10 +41,11 @@ export default function Project() {
               alt={project.title}
               width={500}
               height={500}
-              className="w-full h-[20rem] object-cover overflow-hidden object-center"
+              className="w-full h-80 object-cover overflow-hidden object-center"
+              loading="eager"
             />
 
-            <div className="flex flex-col justify-center items-center gap-5 h-[12rem]">
+            <div className="flex flex-col justify-center items-center gap-5 h-48">
               <p className="text-xl font-semibold">{project.title}</p>
               <a
                 href={project.link}
