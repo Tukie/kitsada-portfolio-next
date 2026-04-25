@@ -33,7 +33,6 @@ export default function Skill() {
           iconFile: "tailwind.webp",
         },
         { name: "Bootstrap", level: t("advanced"), iconFile: "bootstrap.png" },
-        { name: "Axios", level: t("intermediate"), iconFile: "axios.png" },
         {
           name: "Tanstack (Vue Query)",
           level: t("beginner"),
@@ -56,24 +55,29 @@ export default function Skill() {
         { name: "Express.js", level: t("beginner"), iconFile: "express.webp" },
         { name: "Hono.js", level: t("beginner"), iconFile: "hono.png" },
         { name: "Node.js", level: t("beginner"), iconFile: "nodejs.svg" },
+        { name: "Nest.js", level: t("beginner"), iconFile: "nest-js.svg" },
+      ],
+    },
+    {
+      group: "MOBILE",
+      skills: [
+        {
+          name: "React Native (Expo)",
+          level: t("intermediate"),
+          iconFile: "react-native.png",
+        },
       ],
     },
     {
       group: "DATABASE",
-      skills: [{ name: "MySQL", level: t("advanced"), iconFile: "sql.png" }],
-    },
-    {
-      group: "VERSION CONTROL",
-      skills: [
-        { name: "Git", level: t("intermediate"), iconFile: "github.png" },
-      ],
+      skills: [{ name: "MySQL", level: t("intermediate"), iconFile: "sql.png" }],
     },
     {
       group: "OTHER",
       skills: [
         { name: "Docker", level: t("beginner"), iconFile: "docker.webp" },
-        { name: "Zod", level: t("intermediate"), iconFile: "zod.png" },
         { name: "JWT/Auth", level: t("intermediate"), iconFile: "jwt.png" },
+        { name: "Git", level: t("intermediate"), iconFile: "github.png" },
       ],
     },
   ];
