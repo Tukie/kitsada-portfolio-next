@@ -25,6 +25,7 @@ export default function HeroSection() {
 
         <div className="flex flex-col justify-center items-center group">
           <Image
+            loading="eager"
             src="/profile.png"
             alt="hero"
             width={350}
