@@ -5,6 +5,7 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import { cn } from "@/lib/utils";
+import AIChat from "./components/AIChat";
 
 const SectionWrapper = ({
   children,
@@ -24,7 +25,7 @@ const SectionWrapper = ({
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <SectionWrapper className="pt-30 pb-30">
         <HeroSection />
       </SectionWrapper>
@@ -43,6 +44,8 @@ export default function Home() {
       <SectionWrapper className="bg-primary" id="contact">
         <Contact />
       </SectionWrapper>
+      
+      <AIChat />
     </div>
   );
 }
